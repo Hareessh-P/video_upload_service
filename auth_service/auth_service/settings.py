@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +27,23 @@ SECRET_KEY = 'django-insecure-a##2#bkcdb5d1iwe1=e4yca1&oht%yj3&=5l&eef53hnobz(e&
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+#   OAUTH 
+
+OAUTH2_PROVIDER = {
+    "OIDC_ENABLED": True,
+    "OIDC_RSA_PRIVATE_KEY": os.environ.get("OIDC_RSA_PRIVATE_KEY"),
+    "SCOPES": {
+        "openid": "OpenID Connect scope",
+        # ... any other scopes that you use
+    },
+    "OIDC_RSA_PRIVATE_KEYS_INACTIVE": [
+        os.environ.get("OIDC_RSA_PRIVATE_KEY_2"),
+        os.environ.get("OIDC_RSA_PRIVATE_KEY_3")
+    ]
+    # ... any other settings you want
+}
 
 
 # Application definition

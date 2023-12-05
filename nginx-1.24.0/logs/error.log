@@ -1,0 +1,42 @@
+2023/11/30 15:05:09 [warn] 21752#20668: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:05:09 [emerg] 21752#20668: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:05:16 [warn] 9208#4960: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:05:16 [emerg] 9208#4960: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:11:26 [warn] 18596#884: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:11:26 [emerg] 18596#884: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:11:35 [warn] 10844#11928: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:11:35 [emerg] 10844#11928: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:13:44 [warn] 11980#14888: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:13:44 [emerg] 11980#14888: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:16:01 [warn] 19496#17800: "user" is not supported, ignored in D:\PJT\nginx-1.24.0/conf/nginx.conf:1
+2023/11/30 15:16:01 [emerg] 19496#17800: cannot load certificate "D:/etc/nginx/ssl/server.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('D:/etc/nginx/ssl/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:19:58 [notice] 6236#15928: signal process started
+2023/11/30 15:19:58 [error] 6236#15928: CreateFile() "D:\PJT\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/11/30 15:21:16 [emerg] 5708#20560: cannot load certificate "D:/D:/PJT/cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('D:/D:/PJT/cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2023/11/30 15:22:34 [emerg] 21852#22100: cannot load certificate "D:/D:/PJT/cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('D:/D:/PJT/cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2023/11/30 15:23:28 [emerg] 16720#16508: cannot load certificate "D:/D:/PJT/cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('D:/D:/PJT/cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2023/11/30 15:23:42 [emerg] 10152#20712: cannot load certificate "D:/D:/PJT/cert.pem": BIO_new_file() failed (SSL: error:0200107B:system library:fopen:Unknown error:fopen('D:/D:/PJT/cert.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2023/11/30 15:24:37 [emerg] 14556#9900: cannot load certificate "D:\PJT\nginx-1.24.0/conf/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\PJT\nginx-1.24.0/conf/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:25:25 [emerg] 13264#2876: cannot load certificate "D:\PJT\nginx-1.24.0/conf/cert.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\PJT\nginx-1.24.0/conf/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/11/30 15:26:27 [notice] 11884#21364: signal process started
+2023/11/30 15:26:27 [error] 11884#21364: CreateFile() "D:\PJT\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/11/30 15:29:48 [emerg] 5412#15868: "pid" directive is not allowed here in D:\PJT\nginx-1.24.0/conf/nginx.conf:8
+2023/11/30 15:30:53 [notice] 19272#14088: signal process started
+2023/11/30 15:30:53 [error] 19272#14088: invalid PID number "" in "D:/PJT/nginx-1.24.0/logs/nginx.pid"
+2023/11/30 15:31:31 [emerg] 184#14160: CreateFile() "D:/var/log/nginx/access.log" failed (3: The system cannot find the path specified)
+2023/11/30 15:32:12 [emerg] 15228#19080: CreateFile() "D:/var/log/nginx/access.log" failed (3: The system cannot find the path specified)
+2023/11/30 15:40:56 [notice] 9224#17924: signal process started
+2023/11/30 15:45:13 [emerg] 21292#1628: bind() to 0.0.0.0:8080 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2023/11/30 15:47:41 [error] 10248#9372: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1:8000, request: "GET / HTTP/2.0", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/11/30 15:47:43 [error] 10248#9372: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1:8000, request: "GET /favicon.ico HTTP/2.0", upstream: "http://127.0.0.1:8000/favicon.ico", host: "127.0.0.1", referrer: "https://127.0.0.1/"
+2023/11/30 16:02:15 [notice] 3336#19888: signal process started
+2023/11/30 16:19:29 [notice] 22376#14724: signal process started
+2023/11/30 21:02:45 [notice] 9728#15668: signal process started
+2023/11/30 21:02:45 [error] 9728#15668: CreateFile() "D:/PJT/nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/11/30 21:03:43 [notice] 22204#22456: signal process started
+2023/11/30 21:03:43 [error] 22204#22456: CreateFile() "D:/PJT/nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/11/30 21:03:53 [notice] 14268#16356: signal process started
+2023/11/30 21:03:53 [error] 14268#16356: CreateFile() "D:/PJT/nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/11/30 21:04:43 [notice] 5476#14052: signal process started
+2023/11/30 21:05:00 [notice] 2820#19804: signal process started
+2023/11/30 21:05:00 [error] 2820#19804: CreateFile() "D:/PJT/nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
